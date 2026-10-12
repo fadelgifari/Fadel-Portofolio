@@ -21,6 +21,7 @@
   <button class="menu-btn" aria-label="Open menu" aria-expanded="false" id="menuBtn"><span></span><span></span><span></span></button>
   <nav class="links" id="links">
     <a href="#jorun">JoRUN AI</a>
+    <a href="#protect">PROTECT</a>
     <a href="#projects">Projects</a>
     <a href="#awards">Awards</a>
     <a href="#media">Media</a>
@@ -58,7 +59,7 @@
 <section class="stats wrap reveal" aria-label="Impact in numbers">
   <div class="stat"><b data-count="119.45" data-dec="2" data-prefix="IDR " data-suffix="B">IDR 119.45B</b><span>potential revenue loss prevented by JoRUN AI</span></div>
   <div class="stat"><b data-count="304">304</b><span>fishing jobs supported, zero failures</span></div>
-  <div class="stat"><b data-count="97" data-suffix="%">97%</b><span>rig-safety compliance across 10 rigs</span></div>
+  <div class="stat"><b data-count="97" data-suffix="%">97%</b><span>rig-safety compliance across 14 rigs</span></div>
   <div class="stat"><b data-count="70" data-suffix="%">70%</b><span>less time gathering rig information</span></div>
   <div class="stat"><b data-count="6">6</b><span>awards and recognitions, 2025 to 2026</span></div>
   <div class="stat"><b data-count="9">9</b><span>media outlets covering JoRUN AI</span></div>
@@ -126,8 +127,58 @@
   </div>
 </section>
 
+<!-- PROTECT -->
+<section class="section alt" id="protect">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Featured project</p>
+      <h2>P.R.O.T.E.C.T · Digital rig safeguard checks</h2>
+      <p class="sub">A digital Comprehensive Rig Safeguard System Check (CRSSC) that replaces paper checklists, so safety is verified by the crew at the wellsite with photo evidence, not on paper after the fact.</p>
+    </div>
+    <div class="jorun-grid">
+      <div class="jorun-story reveal">
+        <h3>What it does</h3>
+        <ul class="ticks">
+          <li><b>Offline-first mobile app</b> on PHR OneApp: role-based checklists for 7 field roles, with data kept on the phone and synced automatically when signal returns.</li>
+          <li><b>Photo evidence with watermarks</b> stamping rig, user, role, GPS and time on every photo, so checks cannot be ticked without proof.</li>
+          <li><b>Stop-Work Authority flow</b>: equipment marked Not Ready triggers notification and approval before work continues.</li>
+          <li><b>Web dashboard</b> for real-time rig status, compliance by role, an evidence gallery and one-click PDF reports.</li>
+        </ul>
+        <h3>My part</h3>
+        <p>Part of the PROTECT Squad, a collaboration of WOWI and IT. I framed the problem, led UAT, go-live, socialization and field implementation across rigs, tracked value creation, and shaped the PROTECT 2.0 AI roadmap.</p>
+        <h3>Results (Jun to Sep 2026)</h3>
+        <div class="mini-stats">
+          <div><b>97%</b><span>overall compliance</span></div>
+          <div><b>14 rigs</b><span>live, 378+ users</span></div>
+          <div><b>60,082</b><span>evidence photos</span></div>
+          <div><b>3,803</b><span>inspection records</span></div>
+        </div>
+        <p class="note">Presented at DWI CABIN 2026 (4 September 2026).</p>
+      </div>
+      <div class="jorun-gallery reveal">
+        <figure class="g-big" data-lightbox><img src="assets/img/protect-overview.jpg" alt="PROTECT solution overview slide with the CRSSC Digital dashboard" loading="lazy"><figcaption>P.R.O.T.E.C.T: CRSSC Digital</figcaption></figure>
+        <figure data-lightbox><img src="assets/img/protect-uat.jpg" alt="UAT and go-live with rig crews in the field" loading="lazy"><figcaption>UAT and go-live with rig crews</figcaption></figure>
+        <figure data-lightbox><img src="assets/img/protect-field.jpg" alt="Field implementation figures and dashboards" loading="lazy"><figcaption>Field implementation</figcaption></figure>
+        <figure data-lightbox><img src="assets/img/protect-result.jpg" alt="PROTECT results: 14 active rigs, 3,803 inspection records, 97% compliance, 60,082 evidence photos" loading="lazy"><figcaption>Results dashboard</figcaption></figure>
+        <figure data-lightbox><img src="assets/img/protect-2.jpg" alt="Evolution from PROTECT 1.0 to PROTECT 2.0 AI equipment readiness detection" loading="lazy"><figcaption>Next: PROTECT 2.0</figcaption></figure>
+      </div>
+    </div>
+    <div class="next-card reveal">
+      <p class="eyebrow">Next · PROTECT 2.0</p>
+      <h3>AI equipment readiness detection</h3>
+      <p>A multimodal vision model (Gemma on on-prem OpenShift AI with an NVIDIA H200 GPU) classifies each evidence photo as ready or not ready to work, with engineers reviewing low-confidence cases. Built on the IRIS mock-up and the JoRUN AI engine.</p>
+      <div class="mini-stats four">
+        <div><b>90,000+</b><span>photos a month</span></div>
+        <div><b>~90</b><span>rigs in scope</span></div>
+        <div><b>&lt; 5 s</b><span>per photo</span></div>
+        <div><b>750 → 75 h</b><span>review hours a month</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- PROJECTS -->
-<section class="section alt" id="projects">
+<section class="section" id="projects">
   <div class="wrap">
     <div class="section-head reveal">
       <p class="eyebrow">More work</p>
@@ -136,10 +187,10 @@
     </div>
     <div class="cards">
       <article class="card reveal">
-        <div class="card-top"><span class="tag">Product Owner</span><span class="tag soft">PHRONEAPP</span></div>
-        <h3>P.R.O.T.E.C.T</h3>
-        <p>Digital rig-safety compliance. Crews prove safeguards are in place with equipment photos in a mobile inspection module, and leaders see compliance per rig and role on an intranet dashboard.</p>
-        <p class="impact">97% compliance across 10 rigs</p>
+        <div class="card-top"><span class="tag">Safety</span><span class="tag soft">Evidence app</span></div>
+        <h3>PJSM Anti Lupa</h3>
+        <p>Pre-job safety meeting evidence app with photo upload, Stop-Work Authority workflow, analytics and Excel/PDF exports matching PHR report formats. The groundwork for QSERRA.</p>
+        <p class="impact">PJSM evidence in one place</p>
       </article>
       <article class="card reveal">
         <div class="card-top"><span class="tag">Beta Oct 2026</span><span class="tag soft">Power Apps</span></div>
@@ -194,7 +245,7 @@
 </section>
 
 <!-- AWARDS -->
-<section class="section" id="awards">
+<section class="section alt" id="awards">
   <div class="wrap">
     <div class="section-head reveal">
       <p class="eyebrow">Recognition</p>
@@ -221,7 +272,7 @@
 </section>
 
 <!-- MEDIA -->
-<section class="section alt" id="media">
+<section class="section" id="media">
   <div class="wrap">
     <div class="section-head reveal">
       <p class="eyebrow">In the news</p>
@@ -247,7 +298,7 @@
 </section>
 
 <!-- EXPERIENCE -->
-<section class="section" id="experience">
+<section class="section alt" id="experience">
   <div class="wrap two-col">
     <div class="reveal">
       <p class="eyebrow">Career</p>
@@ -263,7 +314,7 @@
           <span class="when">2025 to Oct 2026</span>
           <h3>Jr. Performance Engineer</h3>
           <p class="org">Pertamina Hulu Rokan · Drilling &amp; Well Intervention</p>
-          <p>Delivered JoRUN AI, P.R.O.T.E.C.T, the contract monitoring suite and the Streamlit operations apps.</p>
+          <p>Delivered JoRUN AI, rolled out P.R.O.T.E.C.T, built the contract monitoring suite and the Streamlit operations apps.</p>
         </li>
         <li>
           <span class="when">2024 to 2025</span>

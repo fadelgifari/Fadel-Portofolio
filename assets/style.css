@@ -227,3 +227,15 @@ figcaption { position: absolute; inset: auto 0 0 0; padding: 26px 12px 10px; fon
 .ciif .role { margin-top: 10px; padding-top: 10px; border-top: 1px dashed #ecdcae; }
 @media (max-width: 560px) { .ciif { flex-direction: column; padding: 22px; } .ciif-badge { flex-basis: auto; width: 80px; height: 80px; font-size: 18px; } }
 figure.contain img { object-fit: contain; background: #0d0f16; }
+
+/* PROTECT next card */
+.next-card { margin-top: 56px; background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; border-radius: var(--radius); padding: 30px; box-shadow: var(--shadow); }
+.next-card .eyebrow { color: #5ee6d6; }
+.next-card h3 { font-size: 24px; margin-bottom: 8px; }
+.next-card p { color: #c5cce0; max-width: 820px; }
+.next-card .mini-stats { margin-top: 20px; }
+.mini-stats.four { grid-template-columns: repeat(4, 1fr); }
+.next-card .mini-stats div { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.12); }
+.next-card .mini-stats b { color: #89b4ff; }
+.next-card .mini-stats span { color: #aab3cc; }
+@media (max-width: 820px) { .mini-stats.four { grid-template-columns: repeat(2, 1fr); } }
