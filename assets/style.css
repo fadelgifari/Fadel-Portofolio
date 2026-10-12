@@ -279,3 +279,7 @@ figure.contain img { object-fit: contain; background: #0d0f16; }
 .app-shots img { aspect-ratio: 16 / 10; object-position: top; }
 .photo-strip.six-c { grid-template-columns: repeat(3, 1fr); }
 @media (max-width: 560px) { .photo-strip.six-c { grid-template-columns: 1fr; } }
+.paper-shot { position: relative; display: block; border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); background: #fff; text-decoration: none; transition: transform .25s; }
+.paper-shot:hover { transform: translateY(-4px); }
+.paper-shot img { width: 100%; height: 100%; object-fit: cover; object-position: top left; aspect-ratio: 4 / 3; }
+.ps-cap { position: absolute; inset: auto 0 0 0; padding: 26px 12px 10px; font-size: 13px; font-weight: 600; color: #fff; background: linear-gradient(transparent, rgba(11,61,107,.92)); }
