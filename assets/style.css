@@ -273,3 +273,9 @@ figure.contain img { object-fit: contain; background: #0d0f16; }
 .photo-strip.certs { align-items: stretch; }
 .photo-strip.certs figure img { height: 100%; }
 @media (max-width: 560px) { .photo-strip.certs { grid-template-columns: 1fr; } }
+.card .shot { margin: -24px -24px 6px; border-radius: 18px 18px 0 0; box-shadow: none; }
+.card .shot img { aspect-ratio: 16 / 9; object-position: top; }
+.app-shots { margin-top: 20px; }
+.app-shots img { aspect-ratio: 16 / 10; object-position: top; }
+.photo-strip.six-c { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 560px) { .photo-strip.six-c { grid-template-columns: 1fr; } }
