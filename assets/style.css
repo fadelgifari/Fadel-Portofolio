@@ -245,3 +245,11 @@ figure.contain img { object-fit: contain; background: #0d0f16; }
 .photo-strip.certs { margin-top: 16px; }
 .photo-strip.certs img { aspect-ratio: 4 / 3; padding: 8px; }
 @media (max-width: 1000px) { .photo-strip.four { grid-template-columns: repeat(2, 1fr); } }
+.ciif { display: grid; grid-template-columns: 1.4fr 1fr; gap: 28px; align-items: center; }
+.ciif-body { display: flex; gap: 24px; align-items: flex-start; }
+.ciif-photo img { aspect-ratio: 4 / 4.4; object-position: center 35%; }
+.photo-strip.two { grid-template-columns: repeat(2, 1fr); }
+.photo-strip.six { grid-template-columns: repeat(6, 1fr); }
+.photo-strip.six figure:first-child img { object-position: center 40%; }
+@media (max-width: 1000px) { .ciif { grid-template-columns: 1fr; } .photo-strip.six { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 560px) { .ciif-body { flex-direction: column; } .photo-strip.six { grid-template-columns: repeat(2, 1fr); } }
