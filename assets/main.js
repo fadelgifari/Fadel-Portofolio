@@ -30,7 +30,8 @@
     const tick = (now) => {
       const t = Math.min(1, (now - start) / dur);
       const v = target * (1 - Math.pow(1 - t, 3));
-      el.textContent = pre + v.toFixed(dec) + suf;
+      const num = el.dataset.sep ? Math.round(v).toLocaleString('en-US') : v.toFixed(dec);
+      el.textContent = pre + num + suf;
       if (t < 1) requestAnimationFrame(tick);
     };
     requestAnimationFrame(tick);
