@@ -239,3 +239,9 @@ figure.contain img { object-fit: contain; background: #0d0f16; }
 .next-card .mini-stats b { color: #89b4ff; }
 .next-card .mini-stats span { color: #aab3cc; }
 @media (max-width: 820px) { .mini-stats.four { grid-template-columns: repeat(2, 1fr); } }
+.photo-strip.four { grid-template-columns: repeat(4, 1fr); }
+#protect .photo-strip.four { margin-top: 20px; }
+.strip-title { margin-top: 44px; }
+.photo-strip.certs { margin-top: 16px; }
+.photo-strip.certs img { aspect-ratio: 4 / 3; padding: 8px; }
+@media (max-width: 1000px) { .photo-strip.four { grid-template-columns: repeat(2, 1fr); } }
